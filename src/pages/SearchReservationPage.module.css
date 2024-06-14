@@ -1,0 +1,76 @@
+.SearchReservationPage {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -30rem; /* Push the reservation section up by 30rem */
+  }
+  
+  .SearchForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .SearchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .SearchButton {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .SearchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .Error {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .ReservationDetails {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ReservationDetails h2 {
+    margin-bottom: 20px;
+  }
+  
+  .ReservationDetails div {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .PdfButton {
+    display: block;
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .PdfButton:hover {
+    background-color: #0056b3;
+  }  

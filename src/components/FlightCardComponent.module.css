@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+  background-color: white;
+  max-width: 500px; /* Set a max-width to make the card smaller */
+}
+
+.card.hovered {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.iconWrapper {
+  flex: 0 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.icon {
+  font-size: 36px; /* Increase the icon size */
+  color: #007bff;
+}
+
+.cardContent {
+  flex: 1;
+}
+
+.cardTitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.detailsWrapper {
+  margin-bottom: 10px;
+}
+
+.detailItem {
+  margin-bottom: 5px;
+}
+
+.cardButton {
+  text-align: right;
+}

@@ -1,0 +1,26 @@
+.flight {
+    max-width: 60rem;
+    width: 90%;
+    margin: -30rem auto;
+    position: relative;
+    animation: flight-appear 1s ease-out forwards;
+  }
+  
+  .aparflighttment ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes flight-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
